@@ -4,7 +4,8 @@ The Facial Recognition and Makeup Recommendation System Ideal for Different Skin
 
 ![1](https://github.com/user-attachments/assets/b734ce41-f4b8-41cb-b21a-6b0b5ac22a5c)
 The overall goal of this project is to develop an automated facial recognition system that, through image analysis, can identify different skin tones and suggest makeup products that best suit each shade. The system seeks to increase inclusion within the market, ensuring that consumers of all skin tones can find products that suit their needs. In addition, it is intended to create a database of skin tones and matching products that can be used by developers and companies in the beauty sector to improve the diversity of their offerings.
-![4](https://github.com/user-attachments/assets/ef15d8eb-c459-47e1-a497-97d8ca8bf30e)
+![17](https://github.com/user-attachments/assets/e97e8b12-dbf5-471a-bcd9-94aad5c20bc4)
+
 The graphics libraries used include OpenCV, for image processing and manipulation, and NumPy, for mathematical operations and array manipulation. In addition, Google Colab tools were used to upload and display images. The structuring of the project followed a sequence of well-defined steps. In the Initialization stage, he performed the configuration of the work environment and the import of the necessary libraries. 
 ![5](https://github.com/user-attachments/assets/edc95e12-ec0a-4112-a1f6-18c1afbaab11)
 The Image Processing step involved converting the image to the HSV color space and applying a mask for skin segmentation. In Face Detection, the Haar Cascade classifier was used to detect faces in the segmented image. Subsequently, in the Calculation of Average Skin Color, the average skin color of the detected faces was calculated and converted to hexadecimal format.
