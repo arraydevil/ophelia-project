@@ -12,5 +12,11 @@ The Image Processing step involved converting the image to the HSV color space a
 ![11](https://github.com/user-attachments/assets/3943287f-2615-4e1c-8257-fa89e555a876)
 During the Skin Color Classification, the average color was compared with a predefined color chart to determine the skin color category. Finally, in the Product Association, the skin color category was mapped to a corresponding product link.
 ![13](https://github.com/user-attachments/assets/9df8e5d9-6ad4-42fb-b9f1-e105a1fb6727)
-
+- Reading and conversion of image of RGB for HSV.
+- Creates and applies a "mascara" for a skin area segmentation.
+- Converts the segmentational image for grey scale.
+- Haar classifier to detect faces in the grey scale.
+![16](https://github.com/user-attachments/assets/86818f12-0c07-41c2-b65c-9a58fef76885)
+- Converts medium color to RGB and hexadecimal.
+- Determines the skin color category and gets the recommended a comestic link.
 
